@@ -13,6 +13,18 @@
 <body>
     <div class="container-fluid h-100 g-0">
         <header>
+
+@if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+@endif
+@if(session('error'))
+    <div class="alert alert-danger">
+        {{ session('error') }}
+    </div>
+@endif
+
             <nav class='navbar navbar-expand-lg'>
                 <div class='container-fluid'>
                     <div class='logo col-2'>
@@ -61,7 +73,7 @@
 
         <footer>
             <div class="row p-1 g-0">
-                <div class="text-center fw-bold">©Copyright Hannah 2024</div>
+                <div class="text-center fw-bold">©Copyright Hannah 2025</div>
             </div>
         </footer>
     </div>

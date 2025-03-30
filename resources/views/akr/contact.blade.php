@@ -45,16 +45,16 @@
                             <input type="email" class="form-control mt-1 mb-1" id="email" placeholder="Email" name="email" value="{{ old('email') }}" required>
                         </div>
                         <div class="col-12">
-                            <label class="form-label p_texte fs-6 mt-3" for="service">Service</label>
+                            <label class="form-label p_texte fs-6 mt-3" for="service">Service*</label>
                             <select class="form-select" id="service" name="service" value="{{ old('service') }}" required>
                                 <option value="" disabled selected>Choose a service</option>
-                                <option value="1">Akashic Records Reading</option>
-                                <option value="2">Space Healing</option>
-                                <option value="3">Higher Self Reading</option>
-                                <option value="4">Tarot Card Reading</option>
-                                <option value="5">Shamanic Reading</option>
-                                <option value="6">Seven Energy Crescent Reading</option>
-                                <option value="7">Chakra Reading and Healing</option>
+                                <option value="Akashic Records Reading">Akashic Records Reading</option>
+                                <option value="Space Healing">Space Healing</option>
+                                <option value="Higher Self Reading">Higher Self Reading</option>
+                                <option value="Tarot Card Reading">Tarot Card Reading</option>
+                                <option value="Shamanic Reading">Shamanic Reading</option>
+                                <option value="Seven Energy Crescent Reading">Seven Energy Crescent Reading</option>
+                                <option value="Chakra Reading and Healing">Chakra Reading and Healing</option>
                             </select>                        
                         </div>
                         <div class="col-12">

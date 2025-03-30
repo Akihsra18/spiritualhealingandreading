@@ -46,15 +46,3 @@ Route::get('/contact', function () {
 Route::post('/contact', 
     [FormController::class, 'submit']
 )->name('contact.submit');
-
-
-
-
-// Route::post('/send', function () {
-//     return view('akr.send');
-// })->name('akr.send');
-
-// Route::post('/', function () {
-//     return view('akr.send');
-// })->name('akr.send');
-
